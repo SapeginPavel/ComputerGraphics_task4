@@ -34,9 +34,7 @@ public class MyRLE {
         List<Byte> decompressed = new ArrayList<>();
         int pos = 1;
         byte counter = 0;
-        int test = 0;
         for (byte b : bytes) {
-            test++;
             if (pos % 2 == 1) {
                 counter = b;
             } else {

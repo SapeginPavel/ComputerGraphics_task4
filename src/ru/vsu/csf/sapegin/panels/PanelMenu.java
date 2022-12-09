@@ -65,6 +65,5 @@ public class PanelMenu extends JPanel {
         fileChooser.setSize(new Dimension(300, 300));
         fileChooser.setCurrentDirectory(new File((GraphicApp.class.getResource("images")).getPath()));
         fileChooser.setLocation(-500, -100);
-
     }
 }
